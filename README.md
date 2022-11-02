@@ -1,6 +1,7 @@
 # Movie Wiz - A movie search interface
 
 Movie Wiz is a simple movies UI it communicates with the omdb API to get your results.
+Live view at: https://saragadalmawla.github.io/MovieSearch/
 
 ## Table of contents
 
