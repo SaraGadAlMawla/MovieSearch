@@ -1,0 +1,150 @@
+.search-res{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: #DFDDDD solid 2px;
+    padding-bottom: 1rem;
+}
+
+.movie-pic{
+    width: 20%;
+    border-radius: 5px;
+}
+
+.movie-details{
+    width: 75%;
+}
+
+.rating-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title{
+    margin-right: 20px;
+}
+
+.rating{
+    margin-left: 10px;
+}
+
+.logistics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    max-width: 600px;
+}
+
+.duration{
+    width: 20%;
+}
+
+.genre{
+    width: 80%;
+}
+
+.watchlist{
+    width: 30%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.add-icon, .remove-icon{
+    font-size: 24px;
+}
+
+.describtion{
+    margin-top: 5%;
+}
+
+.add-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    padding: 0.5em 0.8em;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #4b3dab;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.add-btn:hover, .add-btn:focus{
+    background-color: #6c58f7;
+}
+
+.make-sisters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .search-res{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .make-sisters{
+        display: flex;
+        justify-content: center;
+    }
+
+    .movie-details{
+        width: 100%;
+    }
+
+    .rating-title{
+        justify-content: center;
+        order: -1;
+    }
+
+    .movie-pic{
+        width: 100%;
+        order: 1;
+    }
+
+    .logistics{
+        order: 2;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .watchlist, .genre, .duration{
+        width: fit-content;
+        text-align: left;
+    }
+
+    .duration, .genre{
+        margin: 0 0.5em;
+        display: inline;
+    }
+
+    .watchlist{
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .add-btn{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .describtion{
+        order: 3;
+    }
+}
