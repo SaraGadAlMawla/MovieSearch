@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshots
 
 #### Start page
-![](./startPage.png)
+![](./startPage.PNG)
 
 #### Results rendered
 ![](./resultsPage.png)
